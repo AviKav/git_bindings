@@ -27,7 +27,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
-    ndkVersion "19"
+    
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 28
@@ -55,6 +55,8 @@ android {
             path "src/main/cpp/CMakeLists.txt"
         }
     }
+    
+    ndkVersion "19.2.5345600"19.2.534560
 }
 
 dependencies {
