@@ -56,7 +56,7 @@ android {
         }
     }
     
-    ndkVersion "19.2.5345600"19.2.534560
+    ndkVersion "19.2.5345600"
 }
 
 dependencies {
